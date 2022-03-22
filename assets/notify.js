@@ -159,7 +159,7 @@
         
         var name = form.find('input[name="name"]');
         var phone = form.find('input[name="phone"]');
-        var url = 'https://api.rentracksw.com/lead/create?site_id=8936&advertiser_id=304&product_id=128526&token=qhy1b6LMDE5YmM1NjY3N2ZlOGM1YjA2NzBiNzY5ZDNhMjNm' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
+        var url = 'https://api.rentracksw.com/lead/create?site_id=9246&advertiser_id=304&product_id=128526&token=rq0Vo7JZWRlNzY4ZTQ2YzhhNTUyMDA2ZGRjMzgxMDBjZDNi' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
         const toSend = {
             name: `${name.val()}`,
             phone: `${phone.val()}`
@@ -179,7 +179,7 @@
         }).then(
             response => response.json()
         ).then((html) => {
-            window.location.href = './thankyou.html?fb_pixel_id=5218561174873860';
+            window.location.href = './thankyou.html?fb_pixel_id=600493857630184,932767647301597,672084573820817';
         });
         
     }
